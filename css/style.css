@@ -1,0 +1,36 @@
+.home {
+    background-image: url(../img/Snif_Candle_OTG_Hero_6oz_Product_Image-2jpg.webp); 
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    color: antiquewhite;
+    font-size: larger;
+    font-weight: 600;
+    padding-top: 20%;
+    
+
+}
+.home2 
+    h1::after{ 
+        content: "|";
+        animation-name: type;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes type {
+        0% {content: "|" ;}
+        10% {content: "C|" ;}
+        20% {content: "Cr|" ;}
+        30% {content: "Cra|" ;}
+        40% {content: "Craf|" ;}
+        50% {content: "Craft|" ;}
+        60% {content: "Craf|" ;}
+        70% {content: "Cra|" ;}
+        80% {content: "Cr|" ;}
+        90% {content: "C|" ;}
+        100% {content: "|" ;}
+
+    }
+}
